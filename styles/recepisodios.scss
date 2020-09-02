@@ -1,0 +1,86 @@
+/*RECUADRO AZUL*/
+
+#recuadro { 
+    margin-top: 40px;
+    width: 100%;
+    height: 1203.5px;
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skew(0deg, -6deg);
+}
+
+
+/*EPISODIOS*/
+
+.episodios {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+.headerepisodios{
+    padding-left: 16px;
+    margin-bottom: 21px;
+    margin-top: 79px;
+}
+
+.headerepisodios h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #FFF;
+    letter-spacing: 0;
+    line-height: 62px;
+} 
+
+.spotify{
+    padding-bottom: 25px;
+    width: 94%;
+    text-align: -webkit-center;
+    margin: auto;
+}
+
+.frame {
+    width: 100%;
+    height: 232px;
+    border: 0px;
+}
+
+/*CIERRA EPISODIOS*/
+
+/*RECUADRO Y EPISODIOS DESKTOP*/
+
+@media only screen and (min-width: 768px) {
+   
+    #recuadro { 
+        margin-top: 50px;
+        max-width: 1440px;
+        height: 1042.6px;
+    }
+
+    .headerepisodios {
+        max-width: 1440px;
+        margin-top: 186px;
+        padding-left: 200px;
+        margin-bottom: 26px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 48px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 62px;
+    }
+
+    .spotify{
+        display: grid;
+        max-width: 1440px;
+        grid-template-columns: repeat(2, 32%);
+        gap: 72px;
+        justify-content: center;
+        margin-bottom: 44px; 
+    } 
+} 
+
+/*CIERRA RECUADRO Y EPISODIOS DESKTOP*/

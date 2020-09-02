@@ -1,0 +1,90 @@
+/*ENCABEZADO*/
+
+.encabezado h1 { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 39px 0 0 16px;
+}
+
+.encabezado .world {
+    text-decoration: line-through;
+}
+
+.encabezado .dot { 
+    font-weight: 500;
+}
+.encabezado #bajadadesktop {
+    display: none;
+}
+
+.encabezado #bajadamobile { 
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    margin: 16px 0 0 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.encabezado a {
+    color: #060A24;
+    text-decoration: none;
+} 
+
+#bajadaboton { 
+    text-align: -webkit-center;
+    width: 100%;
+    margin-top: 36px;
+    font-weight: 400;
+}
+
+/*CIERRA ENCABEZADO*/
+
+/*ENCABEZADO DESKTOP*/
+
+@media only screen and (min-width: 768px) {
+
+    .encabezado .dot { 
+        color: #0000EC;
+    }
+
+    .encabezado h1 { 
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 64px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 84px;
+        font-weight: 400;
+        margin: auto;
+    }
+    
+    .encabezado br { 
+        display: none;
+    }
+
+    .encabezado { 
+        margin-left: auto; 
+        margin-right: auto;
+        padding-left: 200px;
+    }
+
+    .encabezado #bajadamobile {
+        display: none;
+    }
+    
+    .encabezado #bajadadesktop { 
+        font-family: 'IBM Plex Mono';
+        font-size: 16px;
+        display: block;
+        width: 628px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+}
+
+/*CIERRA ENCABEZADO DESKTOP*/

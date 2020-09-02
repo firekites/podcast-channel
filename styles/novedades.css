@@ -1,0 +1,63 @@
+/*NOVEDADES*/
+.novedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 340px;
+  width: 100%;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 8%);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 8%);
+}
+
+.novedades #headernov {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.novedades #headernov h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: -webkit-center;
+  line-height: 42px;
+  font-weight: 400;
+}
+
+/*CIERRA NOVEDADES*/
+/*NOVEDADES DESKTOP*/
+@media only screen and (min-width: 768px) {
+  .novedades {
+    height: 518px;
+    width: 100%;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+  }
+  .novedades #headernov {
+    padding-top: 130px;
+    margin-bottom: 36px;
+  }
+  .novedades #headernov h2 {
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: normal;
+  }
+  .escucha {
+    margin-top: -100px;
+  }
+}
+
+/*CIERRA NOVEDADES DESKTOP*/
+/*# sourceMappingURL=novedades.css.map */
