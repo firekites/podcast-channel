@@ -1,1 +1,3 @@
-https://firekites.github.io/podcast-channel/
+Sitio: https://firekites.github.io/podcast-channel/
+
+Repositorio: https://github.com/firekites/podcast-channel 
