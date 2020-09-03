@@ -1,3 +1,4 @@
+/*RESET*/
 * {
   margin: 0px;
   padding: 0px;
@@ -12,4 +13,6 @@ body {
   margin: 0 auto !important;
   float: none !important;
 }
+
+/*CIERRA*/
 /*# sourceMappingURL=normalizadores.css.map */
