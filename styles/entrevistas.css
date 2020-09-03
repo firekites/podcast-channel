@@ -35,7 +35,7 @@
 
 /*CIERRA ENTREVISTAS*/
 /*ENTREVISTAS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .entrevistas #headerentrevistas {
     line-height: 62px;
     margin-top: 64px;

@@ -3,9 +3,18 @@
 .phone{
     height: 519px;
     width: 320px;
-    text-align: center;
+    display: flex;
     margin-top: 15px;
+    align-self: center;
   }
+
+.nosotros { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-content: center;
+}
 
 .nosotros p { 
     margin-top: 8px;
@@ -36,7 +45,7 @@
 
 /*NOSOTROS DESKTOP*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .nosotros { 
         display: flex; 
         flex-direction: row;
@@ -52,16 +61,29 @@
         margin-bottom: 24px;
     }
 
+    .nosotros p { 
+        margin-top: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    
+
     .textos { 
         display: flex;
         flex-direction: column;
-        width: 430px;
+        width: 464px;
     }
 
     .textos .headernosotros h2 { 
         font-size: 48px;
         line-height: 62px;
         letter-spacing: 0;
+        margin-left: -16px;
     }
 
     .phone{

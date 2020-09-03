@@ -37,7 +37,7 @@
 
 /*CIERRA NOVEDADES*/
 /*NOVEDADES DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .novedades {
     height: 518px;
     width: 100%;

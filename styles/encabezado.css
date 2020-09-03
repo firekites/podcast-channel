@@ -44,7 +44,7 @@
 
 /*CIERRA ENCABEZADO*/
 /*ENCABEZADO DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .encabezado .dot {
     color: #0000EC;
   }

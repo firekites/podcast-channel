@@ -123,7 +123,7 @@ nav ul li {
 
 /*CIERRA HEADER*/
 /*HEADER DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   header {
     background: #FFF;
     max-width: 1440px;

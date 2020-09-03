@@ -50,7 +50,7 @@
 
 /*TOPICOS DESKTOP*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 
     .topicos { 
         margin-left: auto;
@@ -67,7 +67,7 @@
     .topicos #icons {
         margin-top: 56px;
         display: flex;
-        width: 1040px;
+        width: 70%;
         flex-direction: row;
         justify-content: space-between;
         align-self: center;
@@ -76,7 +76,7 @@
     .topicos #icons br {
         margin-top: 56px;
         display: flex;
-        width: 1040px;
+        max-width: 1024px;
         flex-direction: row;
         justify-content: space-between;
         align-self: center;

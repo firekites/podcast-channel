@@ -47,7 +47,7 @@
 
 /*CIERRA TOPICOS*/
 /*TOPICOS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .topicos {
     margin-left: auto;
     margin-right: auto;
@@ -62,7 +62,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1040px;
+    width: 70%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -78,7 +78,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1040px;
+    max-width: 1024px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;

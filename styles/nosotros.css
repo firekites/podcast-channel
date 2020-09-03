@@ -2,8 +2,28 @@
 .phone {
   height: 519px;
   width: 320px;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-content: center;
 }
 
 .nosotros p {
@@ -33,7 +53,7 @@
 
 /*CIERRA NOSOTROS*/
 /*NOSOTROS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .nosotros {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -56,6 +76,16 @@
     line-height: 62px;
     margin-bottom: 24px;
   }
+  .nosotros p {
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
   .textos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -64,12 +94,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 430px;
+    width: 464px;
   }
   .textos .headernosotros h2 {
     font-size: 48px;
     line-height: 62px;
     letter-spacing: 0;
+    margin-left: -16px;
   }
   .phone {
     height: 660px;

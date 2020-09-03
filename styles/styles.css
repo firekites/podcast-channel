@@ -140,7 +140,7 @@ nav ul li {
 
 /*CIERRA HEADER*/
 /*HEADER DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   header {
     background: #FFF;
     max-width: 1440px;
@@ -261,7 +261,7 @@ nav ul li {
 
 /*CIERRA ENCABEZADO*/
 /*ENCABEZADO DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .encabezado .dot {
     color: #0000EC;
   }
@@ -348,7 +348,7 @@ nav ul li {
 
 /*CIERRA EPISODIOS*/
 /*RECUADRO Y EPISODIOS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   #recuadro {
     margin-top: 50px;
     max-width: 1440px;
@@ -384,8 +384,28 @@ nav ul li {
 .phone {
   height: 519px;
   width: 320px;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-content: center;
 }
 
 .nosotros p {
@@ -415,7 +435,7 @@ nav ul li {
 
 /*CIERRA NOSOTROS*/
 /*NOSOTROS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .nosotros {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -438,6 +458,16 @@ nav ul li {
     line-height: 62px;
     margin-bottom: 24px;
   }
+  .nosotros p {
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
   .textos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -446,12 +476,13 @@ nav ul li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 430px;
+    width: 464px;
   }
   .textos .headernosotros h2 {
     font-size: 48px;
     line-height: 62px;
     letter-spacing: 0;
+    margin-left: -16px;
   }
   .phone {
     height: 660px;
@@ -497,7 +528,7 @@ nav ul li {
 
 /*CIERRA ENTREVISTAS*/
 /*ENTREVISTAS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .entrevistas #headerentrevistas {
     line-height: 62px;
     margin-top: 64px;
@@ -571,7 +602,7 @@ nav ul li {
 
 /*CIERRA TOPICOS*/
 /*TOPICOS DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .topicos {
     margin-left: auto;
     margin-right: auto;
@@ -586,7 +617,7 @@ nav ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1040px;
+    width: 70%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -602,7 +633,7 @@ nav ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1040px;
+    max-width: 1024px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -655,7 +686,7 @@ nav ul li {
 
 /*CIERRA NOVEDADES*/
 /*NOVEDADES DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .novedades {
     height: 518px;
     width: 100%;
@@ -730,7 +761,7 @@ nav ul li {
   color: #FFF;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .botonb {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
@@ -817,7 +848,7 @@ nav ul li {
 
 /*CIERRA FOOTER*/
 /*FOOTER DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .footer {
     height: 95px;
     display: -webkit-box;
