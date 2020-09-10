@@ -1,4 +1,4 @@
-/*RESET*/ 
+/*RESET*/
 * {
   margin: 0px;
   padding: 0px;
@@ -559,7 +559,7 @@ nav ul li {
 }
 
 .icono1 {
-  margin-top: none;
+  margin-top: 0;
 }
 
 .topicos #headertopicos h2 {
